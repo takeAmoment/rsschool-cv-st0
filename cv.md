@@ -56,3 +56,6 @@ Courses:
 * JavaScript [javascript.ru](https://learn.javascript.ru/)
 
 ***
+##English
+
+__My English level__: A2 / B1 (Pre-Intermediate / Intermediate)
