@@ -1,3 +1,112 @@
-body{
-    background-color: #fff;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+    list-style: none;
+}
+.wrapper{
+    display: grid;
+    grid-template-rows: minmax(100px, auto) 1fr minmax(70px, auto);
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+}
+.header{
+    grid-area: header;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr minmax(auto, 100px) minmax(auto, 1100px) minmax(auto, 100px);
+    align-items: center;
+    background-color:mediumseagreen;  
+}
+.header-menu{
+    grid-column: 3/3;
+}
+
+.header-list{
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+}
+.header-list li{
+    list-style: none;
+}
+.header-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+
+
+}
+
+.main{
+    grid-area: main;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr minmax(auto, 100px) minmax(auto, 1100px) minmax(auto, 100px);
+    background-color: rgba(153, 205, 50, 0.2);
+}
+.aside{
+    grid-column: 1/2;
+    justify-items: center;
+    padding: 40px;
+    border-right: 5px solid mediumseagreen;
+    background-color:rgba(0, 250, 154, 0.15);
+
+}
+
+h2{
+    text-align: right;
+    font-size: 36px;
+    font-style: italic;
+    padding-bottom: 5px;
+    border-bottom: 3px solid  mediumseagreen;
+    margin-bottom: 30px;
+}
+.photo{
+    padding-bottom: 50px;
+}
+.avatar{
+   display: block;
+   max-height: 310px;
+   max-width: 240px;
+   border-radius: 60px;
+   box-shadow: 0px 2px 5px 1px grey;
+
+}
+section{
+    padding-bottom: 70px;
+}
+.skills-flex{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.stars{
+    width: 20px;
+}
+.main-content{
+    grid-column: 3/3;
+    justify-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 40px;
+    background-color: whitesmoke;
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 50px;
+}
+.footer{
+    grid-area: footer;
+    background-color:mediumseagreen;
 }
