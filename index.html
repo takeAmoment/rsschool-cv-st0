@@ -123,10 +123,10 @@
                         <h2 id="contacts-title">Contacts</h2>
                         <div class="contacts-content">
                             <ul class="contacts-list">
-                                <li>+48888078741</li>
-                                <li><a href="" class="gmail"></a>alekspekgota@gmail.com</li>
-                                <li><a href="" class="git_hub"></a>takeAmoment</li>
-                                <li><a href="" class="discord"></a>scubido</li>
+                                <li>+48 888 078 741; +375447919858</li>
+                                <li>alekspekhota@gmail.com</li>
+                                <li>takeAmoment (GitHub)</li>
+                                <li>scubido (Discord)</li>
                             </ul>
                         </div>
                     </section>
@@ -137,19 +137,24 @@
                 <section class="about">
                     <h2 id="about-title">About me</h2>
                     <div class="about-content">
-                        <p>I like creating new intresting things, and really want to became a perfect JS developer. I'm patient person and I adore self-develepment.
+                        <p>I'm 25 years old. I like creating new intresting things. I'm patient person and I adore self-develepment.
                          I'm interested in solving difficult tasks and working in team.</p>
+                        <p><span>Goals:</span> I want to became a perfect JavaScript developer</p>
+                        <p><span>Hobbies:</span> reading book, lerning languages, travelling.</p>
                     </div>
                 </section>
                 <section class="education">
                     <h2 id="education-title">Education</h2>
                     <div class="education-content">
-                        <p>I finished Vitebsk State Order of Peoples' Medical University in 2018. 
-                            Courses:
-                            * JavaScript for beginners, <a href="https://welcome.stepik.org/ru">Stepic</a>;
-                            * Web-developing for beginners, <a href="https://welcome.stepik.org/ru">Stepic</a>;
-                            * CS50 ;
-                            * JavaScript <a href="https://learn.javascript.ru/">javascript.ru</a></p>
+                        <p>I finished Vitebsk State Order of Peoples' Medical University in 2018.</p> 
+                        <p><span>Courses:</span>
+                            <ul class="courses">
+                                <li>JavaScript for beginners, <a href="https://welcome.stepik.org/ru">Stepic</a>;</li>
+                                <li>Web-developing for beginners, <a href="https://welcome.stepik.org/ru">Stepic</a>;</li>
+                                <li>CS50;</li>
+                                <li>JavaScript, <a href="https://learn.javascript.ru/">javascript.ru</a>.</li>
+                            </ul>
+                        </p>
                     </div>
                 </section>
                 <section class="experience">
@@ -163,20 +168,22 @@
                     <div class="code-content">
                         <p>Task: <a href="https://www.codewars.com/kata/55e2adece53b4cdcb900006c/train/javascript">codewars</a></p>
                         <code>
-                            <pre>
-                                function race(v1, v2, g) {
-                                    if (v2 > v1){
-                                        let catchTime = g / (v2-v1) *3600;
-                                        let hours = Math.floor(catchTime / 3600);
-                                        let minutes = Math.floor((catchTime%3600) /60);
-                                        let seconds = Math.floor(catchTime%60);
-                                        let arr = [hours, minutes, seconds];
-                                        return arr;
-                                    } else {
-                                        return null;
-                                    }
+                          <pre>
+                            function race(v1, v2, g) {
+                                if (v2 > v1){
+                                  let catchTime = g / (v2-v1) *3600;
+
+                                  let hours = Math.floor(catchTime / 3600);
+                                  let minutes = Math.floor((catchTime%3600) /60);
+                                  let seconds = Math.floor(catchTime%60);
+
+                                  let arr = [hours, minutes, seconds];
+                                  return arr;
+                                } else {
+                                  return null;
                                 }
-                            </pre>
+                            }
+                          </pre>
                         </code>
                     </div>
                 </section>
@@ -184,6 +191,9 @@
                     <h2 id="english-title">English</h2>
                     <div class="english-content">
                         <p>A2 / B1 (Pre-Intermediate / Intermediate)</p>
+                        <div class="cube">
+                            <p>A2</p>
+                        </div>
                     </div>
                 </section>
             </div>
@@ -192,14 +202,14 @@
         <footer class="footer">
             <div class="footer-container">
                 <div class="logo">
-                    <a href="" class="rss-schole">
+                    <a href="https://rs.school/" class="rss-schole">
                         <img src="image/rs_school.svg" alt="rss-schole" class="rss" width="300px" height="300px">
                     </a>
                 </div>
                 <nav class="footer-menu">
                     <ul class="footer-list">
-                        <li>Date</li>
-                        <li>link</li>
+                        <li>Made on December 2021</li>
+                        <li>My pages on GitHub<a href="//github.com/takeAmoment"> HERE</a></li>
                     </ul>
                 </nav>
             </div>
