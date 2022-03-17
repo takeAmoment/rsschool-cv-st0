@@ -1,3 +1,3 @@
 # rsschool-cv
-https://takeAmoment.github.io/rsschool-cv/cv
-https://takeAmoment.github.io/rsschool-cv/
+https://takeAmoment.github.io/rsschool-cv-st0/cv
+https://takeAmoment.github.io/rsschool-cv-st0/
